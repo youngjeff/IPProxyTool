@@ -3,8 +3,8 @@
 from validator import Validator
 
 
-class GatherSpider(Validator):
-    name = 'gather'
+class ITSpider(Validator):
+    name = 'itjuzi'
 
     def __init__(self, name = None, **kwargs):
         super(GatherSpider, self).__init__(name, **kwargs)
