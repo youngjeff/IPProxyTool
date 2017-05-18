@@ -16,7 +16,7 @@ from ipproxytool.spiders.validator.boss import BossSpider
 from ipproxytool.spiders.validator.lagou import LagouSpider
 from ipproxytool.spiders.validator.liepin import LiepinSpider
 from ipproxytool.spiders.validator.jd import JDSpider
-
+from ipproxytool.spiders.validator.itjuzi import ITSpider
 if __name__ == '__main__':
     # 解决编码问题
     reload(sys)
@@ -42,8 +42,9 @@ if __name__ == '__main__':
         # LagouSpider,
         # BossSpider,
         # LiepinSpider,
-        JDSpider,
+        #JDSpider,
         # DoubanSpider,
+        ITSpider,
     ]
 
     process_list = []
