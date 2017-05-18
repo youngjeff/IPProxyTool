@@ -7,7 +7,7 @@ class ITSpider(Validator):
     name = 'itjuzi'
 
     def __init__(self, name = None, **kwargs):
-        super(GatherSpider, self).__init__(name, **kwargs)
+        super(ITSpider, self).__init__(name, **kwargs)
 
         self.timeout = 10
         self.urls = [
