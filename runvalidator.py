@@ -20,7 +20,7 @@ from ipproxytool.spiders.validator.boss import BossSpider
 from ipproxytool.spiders.validator.lagou import LagouSpider
 from ipproxytool.spiders.validator.liepin import LiepinSpider
 from ipproxytool.spiders.validator.jd import JDSpider
-from ipproxytool.spiders.validator.itjuzi import ITSpider
+from ipproxytool.spiders.validator.m1905 import MSpider
 scrapydo.setup()
 
 if __name__ == '__main__':
@@ -44,7 +44,7 @@ if __name__ == '__main__':
         # BossSpider,
         # LiepinSpider,
         #JDSpider,
-        ITSpider,
+        MSpider,
     ]
 
     process_list = []
