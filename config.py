@@ -1,12 +1,12 @@
 # coding=utf-8
 import os
 # local
-MYSQL_HOSTS = os.environ.get("MYSQL_HOSTS")
-MYSQL_USER = os.environ.get("MYSQL_USER")
-MYSQL_PASSWORD = os.environ.get("MYSQL_PASSWORD")
-MYSQL_PORT = os.environ.get("MYSQL_PORT")
-MYSQL_DB = os.environ.get("MYSQL_DB")
-MYSQL_utf8 = os.environ.get("MYSQL_utf8")
+MYSQL_HOSTS=os.environ.get("MYSQL_HOSTS")
+MYSQL_USER=os.environ.get("MYSQL_USER")
+MYSQL_PASSWORD=os.environ.get("MYSQL_PASSWORD")
+MYSQL_PORT=int(os.environ.get("MYSQL_PORT"))
+MYSQL_DB=os.environ.get("MYSQL_DB")
+MYSQL_utf8=os.environ.get("MYSQL_utf8")
 
 database_config = {
     'host': MYSQL_HOSTS,
